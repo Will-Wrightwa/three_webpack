@@ -1,0 +1,29 @@
+{
+  "name": "three_webpack",
+  "version": "1.0.0",
+  "description": "three.js boilerplate with webpack for modular javascript",
+  "main": "index.html",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack",
+    "buildw": "./node_modules/.bin/webpack --watch",
+    "start":  "./node_modules/.bin/webpack-dev-server"
+  },
+  "author": "Will Wright",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "webpack": "^2.3.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "three-js": "^79.0.0"
+  }
+}
